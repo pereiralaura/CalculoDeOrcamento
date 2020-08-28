@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular valores</title>
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <img src="/image/logotipo.svg" alt="logotipo Grafica Lura">
+            <h2>Cálculo de Orçamento</h2>
+        </div>
+    </header>
+    <div class="container inserir">
+        <input type="text" id="productName" placeholder="Nome do Produto">
+        <input type="text" id="value" placeholder="Valor do Produto">
+    </div>
+   <div class="btn">
+         <button onclick="calcularvalor()">Calcular</button>
+   </div>
+    <hr>
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Nome do Produto</th>
+                <th>Valor Incial</th>
+                <th>Valor Final</th>
+            </tr>
+        </table>
+    <hr>
+    <div class="button">
+        <button onclick="exportTableToExcel('tblData')">Download</button>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./export.js"></script>
+</body>
+</html>

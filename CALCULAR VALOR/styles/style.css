@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90vw;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#table{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+#cabecalho{
+   background-color: #a31873; 
+}
+
+#cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+#cabecalho img{
+    display: flex;
+    height: 70%;
+}
+
+#cabecalho .container h2{
+    color: white;
+}
+
+.inserir{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.inserir input{
+    width: 400px;
+    margin:30px 15px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f4;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    color: white;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+    border: none;
+    height: 40px;
+    width: 300px;
+    background: #a31873;
+    transition: .2s ;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: #75064e;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.button button{
+    color: white;
+    border-radius: 1000px;
+    margin-bottom: 20px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    background: #a31873;
+    transition: .2s ;
+    cursor: pointer;
+}
+.button button:hover{
+    background: #75064e;
+}
